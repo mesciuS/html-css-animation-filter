@@ -74,10 +74,38 @@
     width: 500px;
 }
 
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+/* esercizio sei */
+
+.ex-7-img {
+    transition: 2s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(100%);
+}
+/* esercizio sette */
+
+.ex-8-img:hover {
+    filter: sepia(100%);
+    border-radius: 15px;
+}
+/* esercizio otto */
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img:hover {
+    filter: blur(1px) sepia(50%);
+    border-radius: 15px;
+    width: 70%;
+}
+/* esercizio nove */
+
 .ex-10-icon {
     font-size: 60px;
 }
