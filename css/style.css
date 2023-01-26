@@ -108,10 +108,46 @@
 
 .ex-10-icon {
     font-size: 60px;
+
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+/* esercizio dieci */
+
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover {
+    animation: rotate-due 2s;
+}
+
+@keyframes rotate-due {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+/* esercizio undici */
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -141,3 +177,4 @@
     width: 60px;
     height: 20px;
 }
+
